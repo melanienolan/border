@@ -1,0 +1,23 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1100;
+	border: 5px solid #000;
+	padding: 20px;
+}
+.long {
+	height: 400px;
+	background: blue;
+}
